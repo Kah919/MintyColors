@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/minty-skittles/static/css/main.a10074d2.chunk.css",
+    "main.js": "/minty-skittles/static/js/main.59318894.chunk.js",
+    "main.js.map": "/minty-skittles/static/js/main.59318894.chunk.js.map",
+    "runtime-main.js": "/minty-skittles/static/js/runtime-main.c51c59e8.js",
+    "runtime-main.js.map": "/minty-skittles/static/js/runtime-main.c51c59e8.js.map",
+    "static/js/2.2ae74d28.chunk.js": "/minty-skittles/static/js/2.2ae74d28.chunk.js",
+    "static/js/2.2ae74d28.chunk.js.map": "/minty-skittles/static/js/2.2ae74d28.chunk.js.map",
+    "index.html": "/minty-skittles/index.html",
+    "precache-manifest.3c6334067b66f6939ea70f2256b628fb.js": "/minty-skittles/precache-manifest.3c6334067b66f6939ea70f2256b628fb.js",
+    "service-worker.js": "/minty-skittles/service-worker.js",
+    "static/css/main.a10074d2.chunk.css.map": "/minty-skittles/static/css/main.a10074d2.chunk.css.map",
+    "static/js/2.2ae74d28.chunk.js.LICENSE.txt": "/minty-skittles/static/js/2.2ae74d28.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c51c59e8.js",
+    "static/js/2.2ae74d28.chunk.js",
+    "static/css/main.a10074d2.chunk.css",
+    "static/js/main.59318894.chunk.js"
+  ]
+}
