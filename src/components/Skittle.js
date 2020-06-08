@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import ColorScheme from 'color-scheme';
+
 const useInterval = (callback, delay) => {
     const savedCallback = React.useRef();
   
@@ -25,7 +26,7 @@ export default () => {
 
     useEffect(() => {
         let scheme = new ColorScheme;
-        scheme.from_hue(21).scheme('triade').variation('soft');
+        scheme.from_hue(21).scheme('contrast').variation('pastel');
 
         let color = scheme.colors();
         setColorArray(color);
@@ -42,11 +43,10 @@ export default () => {
         }
     }, 500)
 
-    console.log(colorArray)
-
     return(
         <div className="skittle_container">
             <div className="skittle" style={{backgroundColor: `#${colorArray[curr]}`}}></div>
+            
         </div>
     )
 }

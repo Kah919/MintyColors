@@ -4,7 +4,6 @@ import Skittle from './Skittle';
 export default ({count}) => {
     const [skittleCount, setSkittleCount] = useState(0)
     useEffect(() => {
-        console.log("listening")
         setSkittleCount(count)
     },[count])
 
