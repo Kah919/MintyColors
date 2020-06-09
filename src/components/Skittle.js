@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import ColorScheme from 'color-scheme';
+import ColorForm from './ColorForm';
 
 const useInterval = (callback, delay) => {
     const savedCallback = React.useRef();
@@ -46,7 +47,7 @@ export default () => {
     return(
         <div className="skittle_container">
             <div className="skittle" style={{backgroundColor: `#${colorArray[curr]}`}}></div>
-            
+            <ColorForm />
         </div>
     )
 }

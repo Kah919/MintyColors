@@ -2,23 +2,29 @@
   margin: 0;
   padding: 0;
   color: white;
+  background-color: black;
+}
+
+form {
+  padding: 10px;
+  text-align: center;
 }
 
 input {
-  color: black;
+  /* color: black; */
   text-align: center;
   padding: 0;
 }
 
 .app_background {
-  background-color: black;
+  /* background-color: black; */
   width: 100vw;
   height: 100vh;
 }
 
 .skittles_container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 2fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
   justify-items: center;
   width: 80%;
   margin: 0 auto;
@@ -31,12 +37,17 @@ input {
   width: 50px;
   height: 50px;
   padding: 10px;
-  margin-bottom: 20px;
-  margin-top: 20px;
+  margin: 20px auto;
 }
 
 .skittles_container {
   margin-bottom: 50px;
 }
 
+.color_picker_container {
+  text-align: center;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
 
